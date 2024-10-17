@@ -5,7 +5,7 @@ public class Main {
         printEvenPositionElements(array);
     }
 
-    public static void printEvenPositionElements(int[] arr) {
+    public static void printEvenPositionElement(int[] arr) {
         System.out.println("Elements at even positions:");
         for (int i = 0; i < arr.length; i++) {
             // Check if the index is even
