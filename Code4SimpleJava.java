@@ -1,7 +1,7 @@
 //gcd
 import java.util.Scanner;
 
-public class GCD {
+public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the first number: ");
@@ -27,7 +27,7 @@ public class GCD {
 //perfect square
 import java.util.Scanner;
 
-public class PerfectSquare {
+public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a number: ");
