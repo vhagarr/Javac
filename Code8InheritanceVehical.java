@@ -48,7 +48,7 @@ class Bike extends Vehicle {
 }
 
 // Main class to test the implementation
-public class InheritanceDemo {
+public class Main {
     public static void main(String[] args) {
         Car car = new Car(120, 50, 4);
         Bike bike = new Bike(80, 15, true);
