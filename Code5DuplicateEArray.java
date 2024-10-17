@@ -1,7 +1,7 @@
 //duplicate in array
 import java.util.HashSet;
 
-public class DuplicateElements {
+public class Main {
     public static void main(String[] args) {
         int[] array = {1, 2, 3, 4, 2, 3, 5, 6, 6};
         findDuplicates(array);
