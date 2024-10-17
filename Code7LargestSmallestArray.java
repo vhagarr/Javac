@@ -1,5 +1,5 @@
 //LargestAndSmallest in array
-public class LargestAndSmallest {
+public class Main {
     public static void main(String[] args) {
         int[] array = {34, 67, 23, 89, 1, 45, 78};
         findLargestAndSmallest(array);
