@@ -1,7 +1,7 @@
 //Fibonacci
 import java.util.Scanner;
 
-public class Fibonacci {
+public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the number of terms in the Fibonacci series: ");
@@ -22,7 +22,7 @@ public class Fibonacci {
 //Factprial
 import java.util.Scanner;
 
-public class Factorial {
+public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a number to find its factorial: ");
