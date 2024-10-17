@@ -34,7 +34,7 @@ class Rectangle extends Shape {
 }
 
 // Main class to test the implementation
-public class InheritanceAndMethodOverriding {
+public class Main {
     public static void main(String[] args) {
         Shape circle = new Circle(5); // Create a Circle with radius 5
         Shape rectangle = new Rectangle(4, 6); // Create a Rectangle with length 4 and breadth 6
