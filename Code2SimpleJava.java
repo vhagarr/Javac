@@ -30,40 +30,18 @@ public class Main {
 //Check whether two strings are anagrams 
 
 import java.util.Arrays;
-import java.util.Scanner;
 
-public class Main {
+class Main{
+    public static boolean anargram(String str1,String str2){
+        if(str1.length()!=str2.length())
+        return false;
+        char arr1[]=str1.toCharArray();
+        char arr2[]=str2.toCharArray();
+        Arrays.sort(arr1);
+        Arrays.sort(arr2);
+        return Arrays.equals(arr1, arr2);
+    }
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        
-        System.out.print("Enter the first string: ");
-        String str1 = scanner.nextLine();
-        
-        System.out.print("Enter the second string: ");
-        String str2 = scanner.nextLine();
-
-        // Remove spaces and convert to lower case
-        str1 = str1.replaceAll("\\s+", "").toLowerCase();
-        str2 = str2.replaceAll("\\s+", "").toLowerCase();
-
-        // Check if lengths are the same
-        if (str1.length() != str2.length()) {
-            System.out.println("The strings are not anagrams.");
-            return;
-        }
-
-        // Convert strings to character arrays and sort them
-        char[] charArray1 = str1.toCharArray();
-        char[] charArray2 = str2.toCharArray();
-        
-        Arrays.sort(charArray1);
-        Arrays.sort(charArray2);
-
-        // Check if sorted arrays are equal
-        if (Arrays.equals(charArray1, charArray2)) {
-            System.out.println("The strings are anagrams.");
-        } else {
-            System.out.println("The strings are not anagrams.");
-        }
+        System.out.println(anargram("Ranjit", "Ranjit"));
     }
 }
